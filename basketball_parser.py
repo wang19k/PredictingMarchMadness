@@ -10,7 +10,6 @@ COLUMNS = ["Season", "Daynum", "Wteam", "Wscore", "Lteam", "Lscore", "Wloc", "Nu
            "Wblk", "Wpf", "Lfgm", "Lfga", "Lfgm3", "Lfga3", "Lftm", "Lfta", "Lor", "Ldr",
            "Last", "Lto", "Lstl", "Lblk", "Lpf"]
 
-
 def main():
     team_names = create_dict_from_csv("teams.csv")
     #print(team_names)
@@ -32,6 +31,8 @@ def get_input_frames(filename, names):
     # features = inputs[FEATURES], once we decide what FEATURES will be
     inputs["Wteam"] = inputs["Wteam"].apply(lambda x: names[x])
     inputs["Lteam"] = inputs["Lteam"].apply(lambda x: names[x])
+    by_year = inputs.groupby("Season")
+    print(by_year.describe().head())
     return inputs
 
 if __name__=="__main__":
