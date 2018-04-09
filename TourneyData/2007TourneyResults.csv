@@ -1,0 +1,64 @@
+,Season,Wteam,Wscore,Lteam,Lscore,Wscorediff,Lscorediff,WSeed,LSeed,Round
+257,2007,Boston College,84,Texas Tech,75,9,-9,W07,W10,R1
+258,2007,Butler,57,Old Dominion,46,11,-11,Y05,Y12,R1
+259,2007,Georgetown,80,Belmont,55,25,-25,W02,W15,R1
+260,2007,Indiana,70,Gonzaga,57,13,-13,Z07,Z10,R1
+261,2007,Louisville,78,Stanford,58,20,-20,X06,X11,R1
+262,2007,Maryland,82,Davidson,70,12,-12,Y04,Y13,R1
+263,2007,Michigan St,61,Marquette,49,12,-12,W09,W08,R1
+264,2007,North Carolina,86,E Kentucky,65,21,-21,W01,W16,R1
+265,2007,Ohio St,78,Central Conn,57,21,-21,X01,X16,R1
+266,2007,Pittsburgh,79,Wright St,58,21,-21,Z03,Z14,R1
+267,2007,Texas A&M,68,Penn,52,16,-16,X03,X14,R1
+268,2007,UCLA,70,Weber St,42,28,-28,Z02,Z15,R1
+269,2007,VA Commonwealth,79,Duke,77,2,-2,Z11,Z06,R1
+270,2007,Vanderbilt,77,G Washington,44,33,-33,W06,W11,R1
+271,2007,Washington St,70,Oral Roberts,54,16,-16,W03,W14,R1
+272,2007,Xavier,79,BYU,77,2,-2,X09,X08,R1
+273,2007,Florida,112,Jackson St,69,43,-43,Y01,Y16,R1
+274,2007,Kansas,107,Niagara,67,40,-40,Z01,Z16b,R1
+275,2007,Kentucky,67,Villanova,58,9,-9,Z08,Z09,R1
+276,2007,Memphis,73,North Texas,58,15,-15,X02,X15,R1
+277,2007,Nevada,77,Creighton,71,6,-6,X07,X10,R1
+278,2007,Oregon,58,Miami OH,56,2,-2,Y03,Y14,R1
+279,2007,Purdue,72,Arizona,63,9,-9,Y09,Y08,R1
+280,2007,S Illinois,61,Holy Cross,51,10,-10,Z04,Z13,R1
+281,2007,Tennessee,121,Long Beach St,86,35,-35,X05,X12,R1
+282,2007,Texas,79,New Mexico St,67,12,-12,W04,W13,R1
+283,2007,UNLV,67,Georgia Tech,63,4,-4,Y07,Y10,R1
+284,2007,USC,77,Arkansas,60,17,-17,W05,W12,R1
+285,2007,Virginia,84,Albany NY,57,27,-27,X04,X13,R1
+286,2007,Virginia Tech,54,Illinois,52,2,-2,Z05,Z12,R1
+287,2007,Winthrop,74,Notre Dame,64,10,-10,Y11,Y06,R1
+288,2007,Wisconsin,76,TAM C. Christi,63,13,-13,Y02,Y15,R1
+289,2007,Butler,62,Maryland,59,3,-3,Y05,Y04,R2
+290,2007,Georgetown,62,Boston College,55,7,-7,W02,W07,R2
+291,2007,North Carolina,81,Michigan St,67,14,-14,W01,W09,R2
+292,2007,Ohio St,78,Xavier,71,7,-7,X01,X09,R2
+293,2007,Pittsburgh,84,VA Commonwealth,79,5,-5,Z03,Z11,R2
+294,2007,Texas A&M,72,Louisville,69,3,-3,X03,X06,R2
+295,2007,UCLA,54,Indiana,49,5,-5,Z02,Z07,R2
+296,2007,Vanderbilt,78,Washington St,74,4,-4,W06,W03,R2
+297,2007,Florida,74,Purdue,67,7,-7,Y01,Y09,R2
+298,2007,Kansas,88,Kentucky,76,12,-12,Z01,Z08,R2
+299,2007,Memphis,78,Nevada,62,16,-16,X02,X07,R2
+300,2007,Oregon,75,Winthrop,61,14,-14,Y03,Y11,R2
+301,2007,S Illinois,63,Virginia Tech,48,15,-15,Z04,Z05,R2
+302,2007,Tennessee,77,Virginia,74,3,-3,X05,X04,R2
+303,2007,UNLV,74,Wisconsin,68,6,-6,Y07,Y02,R2
+304,2007,USC,87,Texas,68,19,-19,W05,W04,R2
+305,2007,Kansas,61,S Illinois,58,3,-3,Z01,Z04,R3
+306,2007,Memphis,65,Texas A&M,64,1,-1,X02,X03,R3
+307,2007,Ohio St,85,Tennessee,84,1,-1,X01,X05,R3
+308,2007,UCLA,64,Pittsburgh,55,9,-9,Z02,Z03,R3
+309,2007,Florida,65,Butler,57,8,-8,Y01,Y05,R3
+310,2007,Georgetown,66,Vanderbilt,65,1,-1,W02,W06,R3
+311,2007,North Carolina,74,USC,64,10,-10,W01,W05,R3
+312,2007,Oregon,76,UNLV,72,4,-4,Y03,Y07,R3
+313,2007,Ohio St,92,Memphis,76,16,-16,X01,X02,R4
+314,2007,UCLA,68,Kansas,55,13,-13,Z02,Z01,R4
+315,2007,Florida,85,Oregon,77,8,-8,Y01,Y03,R4
+316,2007,Georgetown,96,North Carolina,84,12,-12,W02,W01,R4
+317,2007,Florida,76,UCLA,66,10,-10,Y01,Z02,R5
+318,2007,Ohio St,67,Georgetown,60,7,-7,X01,W02,R5
+319,2007,Florida,84,Ohio St,75,9,-9,Y01,X01,R6

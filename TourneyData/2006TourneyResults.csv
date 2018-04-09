@@ -1,0 +1,64 @@
+,Season,Wteam,Wscore,Lteam,Lscore,Wscorediff,Lscorediff,WSeed,LSeed,Round
+193,2006,Alabama,90,Marquette,85,5,-5,X10,X07,R1
+194,2006,Boston College,88,Pacific,76,12,-12,Y04,Y13,R1
+195,2006,Duke,70,Southern Univ,54,16,-16,W01,W16,R1
+196,2006,Florida,76,South Alabama,50,26,-26,Y03,Y14,R1
+197,2006,G Washington,88,UNC Wilmington,85,3,-3,W08,W09,R1
+198,2006,Gonzaga,79,Xavier,75,4,-4,X03,X14,R1
+199,2006,Illinois,78,Air Force,69,9,-9,Z04,Z13,R1
+200,2006,Indiana,87,San Diego St,83,4,-4,X06,X11,R1
+201,2006,LSU,80,Iona,64,16,-16,W04,W13,R1
+202,2006,Montana,87,Nevada,79,8,-8,Y12,Y05,R1
+203,2006,Tennessee,63,Winthrop,61,2,-2,Z02,Z15,R1
+204,2006,Texas A&M,66,Syracuse,58,8,-8,W12,W05,R1
+205,2006,UCLA,78,Belmont,44,34,-34,X02,X15,R1
+206,2006,Washington,75,Utah St,61,14,-14,Z05,Z12,R1
+207,2006,WI Milwaukee,82,Oklahoma,74,8,-8,Y11,Y06,R1
+208,2006,Wichita St,86,Seton Hall,66,20,-20,Z07,Z10,R1
+209,2006,Arizona,94,Wisconsin,75,19,-19,Y08,Y09,R1
+210,2006,Bradley,77,Kansas,73,4,-4,X13,X04,R1
+211,2006,Bucknell,59,Arkansas,55,4,-4,X09,X08,R1
+212,2006,Connecticut,72,Albany NY,59,13,-13,Z01,Z16,R1
+213,2006,George Mason,75,Michigan St,65,10,-10,Z11,Z06,R1
+214,2006,Georgetown,54,Northern Iowa,49,5,-5,Y07,Y10,R1
+215,2006,Kentucky,69,UAB,64,5,-5,Z08,Z09,R1
+216,2006,Memphis,94,Oral Roberts,78,16,-16,X01,X16,R1
+217,2006,NC State,58,California,52,6,-6,W10,W07,R1
+218,2006,North Carolina,69,Murray St,65,4,-4,Z03,Z14,R1
+219,2006,Northwestern LA,64,Iowa,63,1,-1,W14,W03,R1
+220,2006,Ohio St,70,Davidson,62,8,-8,Y02,Y15,R1
+221,2006,Pittsburgh,79,Kent,64,15,-15,X05,X12,R1
+222,2006,Texas,60,Penn,52,8,-8,W02,W15,R1
+223,2006,Villanova,58,Monmouth NJ,45,13,-13,Y01,Y16b,R1
+224,2006,West Virginia,64,S Illinois,46,18,-18,W06,W11,R1
+225,2006,Boston College,69,Montana,56,13,-13,Y04,Y12,R2
+226,2006,Duke,74,G Washington,61,13,-13,W01,W08,R2
+227,2006,Florida,82,WI Milwaukee,60,22,-22,Y03,Y11,R2
+228,2006,Gonzaga,90,Indiana,80,10,-10,X03,X06,R2
+229,2006,LSU,58,Texas A&M,57,1,-1,W04,W12,R2
+230,2006,UCLA,62,Alabama,59,3,-3,X02,X10,R2
+231,2006,Washington,67,Illinois,64,3,-3,Z05,Z04,R2
+232,2006,Wichita St,80,Tennessee,73,7,-7,Z07,Z02,R2
+233,2006,Bradley,72,Pittsburgh,66,6,-6,X13,X05,R2
+234,2006,Connecticut,87,Kentucky,83,4,-4,Z01,Z08,R2
+235,2006,George Mason,65,North Carolina,60,5,-5,Z11,Z03,R2
+236,2006,Georgetown,70,Ohio St,52,18,-18,Y07,Y02,R2
+237,2006,Memphis,72,Bucknell,56,16,-16,X01,X09,R2
+238,2006,Texas,75,NC State,54,21,-21,W02,W10,R2
+239,2006,Villanova,82,Arizona,78,4,-4,Y01,Y08,R2
+240,2006,West Virginia,67,Northwestern LA,54,13,-13,W06,W14,R2
+241,2006,LSU,62,Duke,54,8,-8,W04,W01,R3
+242,2006,Memphis,80,Bradley,64,16,-16,X01,X13,R3
+243,2006,Texas,74,West Virginia,71,3,-3,W02,W06,R3
+244,2006,UCLA,73,Gonzaga,71,2,-2,X02,X03,R3
+245,2006,Connecticut,98,Washington,92,6,-6,Z01,Z05,R3
+246,2006,Florida,57,Georgetown,53,4,-4,Y03,Y07,R3
+247,2006,George Mason,63,Wichita St,55,8,-8,Z11,Z07,R3
+248,2006,Villanova,60,Boston College,59,1,-1,Y01,Y04,R3
+249,2006,LSU,70,Texas,60,10,-10,W04,W02,R4
+250,2006,UCLA,50,Memphis,45,5,-5,X02,X01,R4
+251,2006,Florida,75,Villanova,62,13,-13,Y03,Y01,R4
+252,2006,George Mason,86,Connecticut,84,2,-2,Z11,Z01,R4
+253,2006,Florida,73,George Mason,58,15,-15,Y03,Z11,R5
+254,2006,UCLA,59,LSU,45,14,-14,X02,W04,R5
+255,2006,Florida,73,UCLA,57,16,-16,Y03,X02,R6

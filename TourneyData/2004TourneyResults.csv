@@ -1,0 +1,64 @@
+,Season,Wteam,Wscore,Lteam,Lscore,Wscorediff,Lscorediff,WSeed,LSeed,Round
+65,2004,Alabama,65,S Illinois,64,1,-1,X08,X09,R1
+66,2004,Connecticut,70,Vermont,53,17,-17,X02,X15,R1
+67,2004,DePaul,76,Dayton,69,7,-7,X07,X10,R1
+68,2004,Duke,96,Alabama St,61,35,-35,W01,W16,R1
+69,2004,Gonzaga,76,Valparaiso,49,27,-27,Z02,Z15,R1
+70,2004,Manhattan,75,Florida,60,15,-15,Y12,Y05,R1
+71,2004,Maryland,86,UTEP,83,3,-3,X04,X13,R1
+72,2004,Nevada,72,Michigan St,66,6,-6,Z10,Z07,R1
+73,2004,North Carolina,63,Air Force,52,11,-11,W06,W11,R1
+74,2004,Seton Hall,80,Arizona,76,4,-4,W08,W09,R1
+75,2004,St Joseph's PA,82,Liberty,63,19,-19,Y01,Y16,R1
+76,2004,Stanford,71,UT San Antonio,45,26,-26,X01,X16,R1
+77,2004,Syracuse,80,BYU,75,5,-5,X05,X12,R1
+78,2004,Texas,66,Princeton,49,17,-17,W03,W14,R1
+79,2004,Texas Tech,76,Charlotte,73,3,-3,Y08,Y09,R1
+80,2004,Wake Forest,79,VA Commonwealth,78,1,-1,Y04,Y13,R1
+81,2004,Boston College,58,Utah,51,7,-7,Z06,Z11,R1
+82,2004,Cincinnati,80,ETSU,77,3,-3,W04,W13,R1
+83,2004,Georgia Tech,65,Northern Iowa,60,5,-5,Z03,Z14,R1
+84,2004,Illinois,72,Murray St,53,19,-19,W05,W12,R1
+85,2004,Kansas,78,IL Chicago,53,25,-25,Z04,Z13,R1
+86,2004,Kentucky,96,Florida A&M,76,20,-20,Z01,Z16a,R1
+87,2004,Memphis,59,South Carolina,43,16,-16,Y07,Y10,R1
+88,2004,Mississippi St,85,Monmouth NJ,52,33,-33,W02,W15,R1
+89,2004,NC State,61,ULL,52,9,-9,X03,X14,R1
+90,2004,Oklahoma St,75,E Washington,56,19,-19,Y02,Y15,R1
+91,2004,Pacific,66,Providence,58,8,-8,Z12,Z05,R1
+92,2004,Pittsburgh,53,UCF,44,9,-9,Y03,Y14,R1
+93,2004,UAB,102,Washington,100,2,-2,Z09,Z08,R1
+94,2004,Vanderbilt,71,W Michigan,58,13,-13,X06,X11,R1
+95,2004,Wisconsin,76,Richmond,64,12,-12,Y06,Y11,R1
+96,2004,Xavier,80,Louisville,70,10,-10,W07,W10,R1
+97,2004,Alabama,70,Stanford,67,3,-3,X08,X01,R2
+98,2004,Connecticut,72,DePaul,55,17,-17,X02,X07,R2
+99,2004,Duke,90,Seton Hall,62,28,-28,W01,W08,R2
+100,2004,Nevada,91,Gonzaga,72,19,-19,Z10,Z02,R2
+101,2004,St Joseph's PA,70,Texas Tech,65,5,-5,Y01,Y08,R2
+102,2004,Syracuse,72,Maryland,70,2,-2,X05,X04,R2
+103,2004,Texas,78,North Carolina,75,3,-3,W03,W06,R2
+104,2004,Wake Forest,84,Manhattan,80,4,-4,Y04,Y12,R2
+105,2004,Georgia Tech,57,Boston College,54,3,-3,Z03,Z06,R2
+106,2004,Illinois,92,Cincinnati,68,24,-24,W05,W04,R2
+107,2004,Kansas,78,Pacific,63,15,-15,Z04,Z12,R2
+108,2004,Oklahoma St,70,Memphis,53,17,-17,Y02,Y07,R2
+109,2004,Pittsburgh,59,Wisconsin,55,4,-4,Y03,Y06,R2
+110,2004,UAB,76,Kentucky,75,1,-1,Z09,Z01,R2
+111,2004,Vanderbilt,75,NC State,73,2,-2,X06,X03,R2
+112,2004,Xavier,89,Mississippi St,74,15,-15,W07,W02,R2
+113,2004,Alabama,80,Syracuse,71,9,-9,X08,X05,R3
+114,2004,Connecticut,73,Vanderbilt,53,20,-20,X02,X06,R3
+115,2004,Oklahoma St,63,Pittsburgh,51,12,-12,Y02,Y03,R3
+116,2004,St Joseph's PA,84,Wake Forest,80,4,-4,Y01,Y04,R3
+117,2004,Duke,72,Illinois,62,10,-10,W01,W05,R3
+118,2004,Georgia Tech,72,Nevada,67,5,-5,Z03,Z10,R3
+119,2004,Kansas,100,UAB,74,26,-26,Z04,Z09,R3
+120,2004,Xavier,79,Texas,71,8,-8,W07,W03,R3
+121,2004,Connecticut,87,Alabama,71,16,-16,X02,X08,R4
+122,2004,Oklahoma St,64,St Joseph's PA,62,2,-2,Y02,Y01,R4
+123,2004,Duke,66,Xavier,63,3,-3,W01,W07,R4
+124,2004,Georgia Tech,79,Kansas,71,8,-8,Z03,Z04,R4
+125,2004,Connecticut,79,Duke,78,1,-1,X02,W01,R5
+126,2004,Georgia Tech,67,Oklahoma St,65,2,-2,Z03,Y02,R5
+127,2004,Connecticut,82,Georgia Tech,73,9,-9,X02,Z03,R6

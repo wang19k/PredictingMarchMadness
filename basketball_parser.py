@@ -77,7 +77,7 @@ def clean_inputs(inputs):
         # Group by team and average all the fields
         yearly2 = yearly1.groupby('Team').agg(['mean'])
         yearly2["Count"] = yearly1.groupby('Team')["Score"].count()
-        yearly2.to_csv(str(year) + "RegularSeason.csv")
+        yearly2.to_csv("RegularSeason/" + str(year) + "RegularSeason.csv")
     return
 
 if __name__=="__main__":

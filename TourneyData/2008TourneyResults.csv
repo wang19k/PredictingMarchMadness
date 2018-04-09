@@ -1,0 +1,64 @@
+,Season,Wteam,Wscore,Lteam,Lscore,Wscorediff,Lscorediff,WSeed,LSeed,Round
+321,2008,Duke,71,Belmont,70,1,-1,Z02,Z15,R1
+322,2008,Kansas,85,Portland St,61,24,-24,X01,X16,R1
+323,2008,Kansas St,80,USC,67,13,-13,X11,X06,R1
+324,2008,Marquette,74,Kentucky,66,8,-8,Y06,Y11,R1
+325,2008,Michigan St,72,Temple,61,11,-11,Y05,Y12,R1
+326,2008,Notre Dame,68,George Mason,50,18,-18,W05,W12,R1
+327,2008,Pittsburgh,82,Oral Roberts,63,19,-19,Y04,Y13,R1
+328,2008,Purdue,90,Baylor,79,11,-11,Z06,Z11,R1
+329,2008,Stanford,77,Cornell,53,24,-24,Y03,Y14,R1
+330,2008,Texas A&M,67,BYU,62,5,-5,Z09,Z08,R1
+331,2008,UCLA,70,MS Valley St,29,41,-41,Z01,Z16,R1
+332,2008,UNLV,71,Kent,58,13,-13,X08,X09,R1
+333,2008,Washington St,71,Winthrop,40,31,-31,W04,W13,R1
+334,2008,West Virginia,75,Arizona,65,10,-10,Z07,Z10,R1
+335,2008,Wisconsin,71,CS Fullerton,56,15,-15,X03,X14,R1
+336,2008,Xavier,73,Georgia,61,12,-12,Z03,Z14,R1
+337,2008,Arkansas,86,Indiana,72,14,-14,W09,W08,R1
+338,2008,Butler,81,South Alabama,61,20,-20,W07,W10,R1
+339,2008,Davidson,82,Gonzaga,76,6,-6,X10,X07,R1
+340,2008,Georgetown,66,UMBC,47,19,-19,X02,X15,R1
+341,2008,Louisville,79,Boise St,61,18,-18,W03,W14,R1
+342,2008,Memphis,87,UT Arlington,63,24,-24,Y01,Y16,R1
+343,2008,Miami FL,78,St Mary's CA,64,14,-14,Y07,Y10,R1
+344,2008,Mississippi St,76,Oregon,69,7,-7,Y08,Y09,R1
+345,2008,North Carolina,113,Mt St Mary's,74,39,-39,W01,W16b,R1
+346,2008,Oklahoma,72,St Joseph's PA,64,8,-8,W06,W11,R1
+347,2008,San Diego,70,Connecticut,69,1,-1,Z13,Z04,R1
+348,2008,Siena,83,Vanderbilt,62,21,-21,X13,X04,R1
+349,2008,Tennessee,72,American Univ,57,15,-15,W02,W15,R1
+350,2008,Texas,74,Austin Peay,54,20,-20,Y02,Y15,R1
+351,2008,Villanova,75,Clemson,69,6,-6,X12,X05,R1
+352,2008,WKU,101,Drake,99,2,-2,Z12,Z05,R1
+353,2008,Kansas,75,UNLV,56,19,-19,X01,X08,R2
+354,2008,Michigan St,65,Pittsburgh,54,11,-11,Y05,Y04,R2
+355,2008,Stanford,82,Marquette,81,1,-1,Y03,Y06,R2
+356,2008,UCLA,51,Texas A&M,49,2,-2,Z01,Z09,R2
+357,2008,Washington St,61,Notre Dame,41,20,-20,W04,W05,R2
+358,2008,West Virginia,73,Duke,67,6,-6,Z07,Z02,R2
+359,2008,Wisconsin,72,Kansas St,55,17,-17,X03,X11,R2
+360,2008,Xavier,85,Purdue,78,7,-7,Z03,Z06,R2
+361,2008,Davidson,74,Georgetown,70,4,-4,X10,X02,R2
+362,2008,Louisville,78,Oklahoma,48,30,-30,W03,W06,R2
+363,2008,Memphis,77,Mississippi St,74,3,-3,Y01,Y08,R2
+364,2008,North Carolina,108,Arkansas,77,31,-31,W01,W09,R2
+365,2008,Tennessee,76,Butler,71,5,-5,W02,W07,R2
+366,2008,Texas,75,Miami FL,72,3,-3,Y02,Y07,R2
+367,2008,Villanova,84,Siena,72,12,-12,X12,X13,R2
+368,2008,WKU,72,San Diego,63,9,-9,Z12,Z13,R2
+369,2008,Louisville,79,Tennessee,60,19,-19,W03,W02,R3
+370,2008,North Carolina,68,Washington St,47,21,-21,W01,W04,R3
+371,2008,UCLA,88,WKU,78,10,-10,Z01,Z12,R3
+372,2008,Xavier,79,West Virginia,75,4,-4,Z03,Z07,R3
+373,2008,Davidson,73,Wisconsin,56,17,-17,X10,X03,R3
+374,2008,Kansas,72,Villanova,57,15,-15,X01,X12,R3
+375,2008,Memphis,92,Michigan St,74,18,-18,Y01,Y05,R3
+376,2008,Texas,82,Stanford,62,20,-20,Y02,Y03,R3
+377,2008,North Carolina,83,Louisville,73,10,-10,W01,W03,R4
+378,2008,UCLA,76,Xavier,57,19,-19,Z01,Z03,R4
+379,2008,Kansas,59,Davidson,57,2,-2,X01,X10,R4
+380,2008,Memphis,85,Texas,67,18,-18,Y01,Y02,R4
+381,2008,Kansas,84,North Carolina,66,18,-18,X01,W01,R5
+382,2008,Memphis,78,UCLA,63,15,-15,Y01,Z01,R5
+383,2008,Kansas,75,Memphis,68,7,-7,X01,Y01,R6

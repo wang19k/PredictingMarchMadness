@@ -1,0 +1,64 @@
+,Season,Wteam,Wscore,Lteam,Lscore,Wscorediff,Lscorediff,WSeed,LSeed,Round
+449,2010,Baylor,68,Sam Houston St,59,9,-9,X03,X14,R1
+450,2010,Butler,77,UTEP,59,18,-18,Z05,Z12,R1
+451,2010,BYU,99,Florida,92,7,-7,Z07,Z10,R1
+452,2010,Kansas,90,Lehigh,74,16,-16,Y01,Y16,R1
+453,2010,Kansas St,82,North Texas,62,20,-20,Z02,Z15,R1
+454,2010,Kentucky,100,ETSU,71,29,-29,W01,W16,R1
+455,2010,Murray St,66,Vanderbilt,65,1,-1,Z13,Z04,R1
+456,2010,New Mexico,62,Montana,57,5,-5,W03,W14,R1
+457,2010,Northern Iowa,69,UNLV,66,3,-3,Y09,Y08,R1
+458,2010,Ohio,97,Georgetown,83,14,-14,Y14,Y03,R1
+459,2010,Old Dominion,51,Notre Dame,50,1,-1,X11,X06,R1
+460,2010,St Mary's CA,80,Richmond,71,9,-9,X10,X07,R1
+461,2010,Tennessee,62,San Diego St,59,3,-3,Y06,Y11,R1
+462,2010,Villanova,73,Robert Morris,70,3,-3,X02,X15,R1
+463,2010,Wake Forest,81,Texas,80,1,-1,W09,W08,R1
+464,2010,Washington,80,Marquette,78,2,-2,W11,W06,R1
+465,2010,California,77,Louisville,62,15,-15,X08,X09,R1
+466,2010,Cornell,78,Temple,65,13,-13,W12,W05,R1
+467,2010,Duke,73,Ark Pine Bluff,44,29,-29,X01,X16a,R1
+468,2010,Georgia Tech,64,Oklahoma St,59,5,-5,Y10,Y07,R1
+469,2010,Gonzaga,67,Florida St,60,7,-7,Z08,Z09,R1
+470,2010,Maryland,89,Houston,77,12,-12,Y04,Y13,R1
+471,2010,Michigan St,70,New Mexico St,67,3,-3,Y05,Y12,R1
+472,2010,Missouri,86,Clemson,78,8,-8,W10,W07,R1
+473,2010,Ohio St,68,Santa Barbara,51,17,-17,Y02,Y15,R1
+474,2010,Pittsburgh,89,Oakland,66,23,-23,Z03,Z14,R1
+475,2010,Purdue,72,Siena,64,8,-8,X04,X13,R1
+476,2010,Syracuse,79,Vermont,56,23,-23,Z01,Z16,R1
+477,2010,Texas A&M,69,Utah St,53,16,-16,X05,X12,R1
+478,2010,West Virginia,77,Morgan St,50,27,-27,W02,W15,R1
+479,2010,Wisconsin,53,Wofford,49,4,-4,W04,W13,R1
+480,2010,Xavier,65,Minnesota,54,11,-11,Z06,Z11,R1
+481,2010,Baylor,76,Old Dominion,68,8,-8,X03,X11,R2
+482,2010,Butler,54,Murray St,52,2,-2,Z05,Z13,R2
+483,2010,Kansas St,84,BYU,72,12,-12,Z02,Z07,R2
+484,2010,Kentucky,90,Wake Forest,60,30,-30,W01,W09,R2
+485,2010,Northern Iowa,69,Kansas,67,2,-2,Y09,Y01,R2
+486,2010,St Mary's CA,75,Villanova,68,7,-7,X10,X02,R2
+487,2010,Tennessee,83,Ohio,68,15,-15,Y06,Y14,R2
+488,2010,Washington,82,New Mexico,64,18,-18,W11,W03,R2
+489,2010,Cornell,87,Wisconsin,69,18,-18,W12,W04,R2
+490,2010,Duke,68,California,53,15,-15,X01,X08,R2
+491,2010,Michigan St,85,Maryland,83,2,-2,Y05,Y04,R2
+492,2010,Ohio St,75,Georgia Tech,66,9,-9,Y02,Y10,R2
+493,2010,Purdue,63,Texas A&M,61,2,-2,X04,X05,R2
+494,2010,Syracuse,87,Gonzaga,65,22,-22,Z01,Z08,R2
+495,2010,West Virginia,68,Missouri,59,9,-9,W02,W10,R2
+496,2010,Xavier,71,Pittsburgh,68,3,-3,Z06,Z03,R2
+497,2010,Butler,63,Syracuse,59,4,-4,Z05,Z01,R3
+498,2010,Kansas St,101,Xavier,96,5,-5,Z02,Z06,R3
+499,2010,Kentucky,62,Cornell,45,17,-17,W01,W12,R3
+500,2010,West Virginia,69,Washington,56,13,-13,W02,W11,R3
+501,2010,Baylor,72,St Mary's CA,49,23,-23,X03,X10,R3
+502,2010,Duke,70,Purdue,57,13,-13,X01,X04,R3
+503,2010,Michigan St,59,Northern Iowa,52,7,-7,Y05,Y09,R3
+504,2010,Tennessee,76,Ohio St,73,3,-3,Y06,Y02,R3
+505,2010,Butler,63,Kansas St,56,7,-7,Z05,Z02,R4
+506,2010,West Virginia,73,Kentucky,66,7,-7,W02,W01,R4
+507,2010,Duke,78,Baylor,71,7,-7,X01,X03,R4
+508,2010,Michigan St,70,Tennessee,69,1,-1,Y05,Y06,R4
+509,2010,Butler,52,Michigan St,50,2,-2,Z05,Y05,R5
+510,2010,Duke,78,West Virginia,57,21,-21,X01,W02,R5
+511,2010,Duke,61,Butler,59,2,-2,X01,Z05,R6
