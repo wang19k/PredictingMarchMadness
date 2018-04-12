@@ -1,9 +1,7 @@
 import sys
 import numpy as np
 import pandas as pd
-import tensorflow as tf
 import csv
-from sklearn.model_selection import train_test_split
 
 COLUMNS = ["Season", "Daynum", "Wteam", "Wscore", "Lteam", "Lscore", "Wloc", "Numot", "Wfgm",
            "Wfga", "Wfgm3", "Wfga3", "Wftm", "Wfta", "Wor", "Wdr", "Wast", "Wto", "Wstl",
@@ -78,6 +76,11 @@ def clean_inputs(inputs):
         yearly2 = yearly1.groupby('Team').agg(['mean'])
         yearly2["Count"] = yearly1.groupby('Team')["Score"].count()
         yearly2.to_csv("RegularSeason/" + str(year) + "RegularSeason.csv")
+        if year == 2003:
+            all_years = yearly2
+        else:
+            all_years = pd.concat([all_years, yearly2], axis=0)
+    all_years.to_csv("AllRegularSeason.csv")
     return
 
 if __name__=="__main__":

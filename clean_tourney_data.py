@@ -75,8 +75,13 @@ def clean_inputs(input_list, seed_list, names):
         data["Lteam"] = data["Lteam"].apply(lambda x: names[x])
         data["Round"] = data["Daynum"].apply(lambda x: ROUNDS[x])
         data.drop("Daynum", axis=1, inplace=True)
+        if i == 0:
+            all_years = data
+        else:
+            all_years = pd.concat([all_years, data], axis = 0)
         if not data.empty:
             data.to_csv("TourneyData/" + str(i + 2003) + "TourneyResults.csv")
+        all_years.to_csv("AllTourneyResults.csv")
     
 
 if __name__=="__main__":
