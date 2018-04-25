@@ -44,7 +44,7 @@ def merge_input_frames(reg_filename, tour_filename):
     
     tourney = pd.DataFrame.merge(tourney, winners, on=['Season', 'Wteam'])
     tourney = pd.DataFrame.merge(tourney, losers, on=['Season', 'Lteam'])
-    #tourney.to_csv("MergedFinalData.csv")
+    tourney.to_csv("MergedFinalData.csv")
     return tourney
 
 def generate_model(data):

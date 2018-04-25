@@ -71,8 +71,8 @@ def clean_inputs(input_list, seed_list, names):
         data["WSeed"] = data["Wteam"].apply(lambda x: seed_list[i][x])
         data["LSeed"] = data["Lteam"].apply(lambda x: seed_list[i][x])
         # Apply their names
-        data["Wteam"] = data["Wteam"].apply(lambda x: names[x])
-        data["Lteam"] = data["Lteam"].apply(lambda x: names[x])
+        #data["Wteam"] = data["Wteam"].apply(lambda x: names[x])
+        #data["Lteam"] = data["Lteam"].apply(lambda x: names[x])
         data["Round"] = data["Daynum"].apply(lambda x: ROUNDS[x])
         data.drop("Daynum", axis=1, inplace=True)
         if i == 0:

@@ -34,8 +34,8 @@ def get_input_frames(filename, names):
     # The reverse for the Losing team
     inputs["Lloc"] = inputs["Wloc"].apply(lambda x: "N" if x=="N" else ("A" if x=="H" else "H"))
     # Apply their names
-    inputs["Wteam"] = inputs["Wteam"].apply(lambda x: names[x])
-    inputs["Lteam"] = inputs["Lteam"].apply(lambda x: names[x])
+    #inputs["Wteam"] = inputs["Wteam"].apply(lambda x: names[x])
+    #inputs["Lteam"] = inputs["Lteam"].apply(lambda x: names[x])
     # For now dropping these, maybe be useful in the future
     return inputs.drop(["Daynum", "Wloc", "Lloc"], axis= 1)
 
