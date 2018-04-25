@@ -1,64 +1,64 @@
 ,Season,Wteam,Wscore,Lteam,Lscore,Wscorediff,Lscorediff,WSeed,LSeed,Round
-650,2016,Ark Little Rock,85,Purdue,83,2,-2,X12,X05,R1
-651,2016,Butler,71,Texas Tech,61,10,-10,X09,X08,R1
-652,2016,Connecticut,74,Colorado,67,7,-7,Y09,Y08,R1
-653,2016,Duke,93,UNC Wilmington,85,8,-8,Z04,Z13,R1
-654,2016,Gonzaga,68,Seton Hall,52,16,-16,X11,X06,R1
-655,2016,Indiana,99,Chattanooga,74,25,-25,W05,W12,R1
-656,2016,Iowa St,94,Iona,81,13,-13,X04,X13,R1
-657,2016,Kansas,105,Austin Peay,79,26,-26,Y01,Y16,R1
-658,2016,Kentucky,85,Stony Brook,57,28,-28,W04,W13,R1
-659,2016,Miami FL,79,Buffalo,72,7,-7,Y03,Y14,R1
-660,2016,North Carolina,83,FL Gulf Coast,67,16,-16,W01,W16b,R1
-661,2016,Providence,70,USC,69,1,-1,W09,W08,R1
-662,2016,Utah,80,Fresno St,69,11,-11,X03,X14,R1
-663,2016,Virginia,81,Hampton,45,36,-36,X01,X16,R1
-664,2016,Wichita St,65,Arizona,55,10,-10,Y11b,Y06,R1
-665,2016,Yale,79,Baylor,75,4,-4,Z12,Z05,R1
-666,2016,Hawaii,77,California,66,11,-11,Y13,Y04,R1
-667,2016,Iowa,72,Temple,70,2,-2,Y07,Y10,R1
-668,2016,Maryland,79,S Dakota St,74,5,-5,Y05,Y12,R1
-669,2016,MTSU,90,Michigan St,81,9,-9,X15,X02,R1
-670,2016,Northern Iowa,75,Texas,72,3,-3,Z11,Z06,R1
-671,2016,Notre Dame,70,Michigan,63,7,-7,W06,W11a,R1
-672,2016,Oklahoma,82,CS Bakersfield,68,14,-14,Z02,Z15,R1
-673,2016,Oregon,91,Holy Cross,52,39,-39,Z01,Z16a,R1
-674,2016,SF Austin,70,West Virginia,56,14,-14,W14,W03,R1
-675,2016,St Joseph's PA,78,Cincinnati,76,2,-2,Z08,Z09,R1
-676,2016,Syracuse,70,Dayton,51,19,-19,X10,X07,R1
-677,2016,Texas A&M,92,WI Green Bay,65,27,-27,Z03,Z14,R1
-678,2016,VA Commonwealth,75,Oregon St,67,8,-8,Z10,Z07,R1
-679,2016,Villanova,86,UNC Asheville,56,30,-30,Y02,Y15,R1
-680,2016,Wisconsin,47,Pittsburgh,43,4,-4,W07,W10,R1
-681,2016,Xavier,71,Weber St,53,18,-18,W02,W15,R1
-682,2016,Duke,71,Yale,64,7,-7,Z04,Z12,R2
-683,2016,Gonzaga,82,Utah,59,23,-23,X11,X03,R2
-684,2016,Indiana,73,Kentucky,67,6,-6,W05,W04,R2
-685,2016,Iowa St,78,Ark Little Rock,61,17,-17,X04,X12,R2
-686,2016,Kansas,73,Connecticut,61,12,-12,Y01,Y09,R2
-687,2016,Miami FL,65,Wichita St,57,8,-8,Y03,Y11b,R2
-688,2016,North Carolina,85,Providence,66,19,-19,W01,W09,R2
-689,2016,Virginia,77,Butler,69,8,-8,X01,X09,R2
-690,2016,Maryland,73,Hawaii,60,13,-13,Y05,Y13,R2
-691,2016,Notre Dame,76,SF Austin,75,1,-1,W06,W14,R2
-692,2016,Oklahoma,85,VA Commonwealth,81,4,-4,Z02,Z10,R2
-693,2016,Oregon,69,St Joseph's PA,64,5,-5,Z01,Z08,R2
-694,2016,Syracuse,75,MTSU,50,25,-25,X10,X15,R2
-695,2016,Texas A&M,92,Northern Iowa,88,4,-4,Z03,Z11,R2
-696,2016,Villanova,87,Iowa,68,19,-19,Y02,Y07,R2
-697,2016,Wisconsin,66,Xavier,63,3,-3,W07,W02,R2
-698,2016,Kansas,79,Maryland,63,16,-16,Y01,Y05,R3
-699,2016,Oklahoma,77,Texas A&M,63,14,-14,Z02,Z03,R3
-700,2016,Oregon,82,Duke,68,14,-14,Z01,Z04,R3
-701,2016,Villanova,92,Miami FL,69,23,-23,Y02,Y03,R3
-702,2016,North Carolina,101,Indiana,86,15,-15,W01,W05,R3
-703,2016,Notre Dame,61,Wisconsin,56,5,-5,W06,W07,R3
-704,2016,Syracuse,63,Gonzaga,60,3,-3,X10,X11,R3
-705,2016,Virginia,84,Iowa St,71,13,-13,X01,X04,R3
-706,2016,Oklahoma,80,Oregon,68,12,-12,Z02,Z01,R4
-707,2016,Villanova,64,Kansas,59,5,-5,Y02,Y01,R4
-708,2016,North Carolina,88,Notre Dame,74,14,-14,W01,W06,R4
-709,2016,Syracuse,68,Virginia,62,6,-6,X10,X01,R4
-710,2016,North Carolina,83,Syracuse,66,17,-17,W01,X10,R5
-711,2016,Villanova,95,Oklahoma,51,44,-44,Y02,Z02,R5
-712,2016,Villanova,77,North Carolina,74,3,-3,Y02,W01,R6
+650,2016,Ark Little Rock,85,Purdue,83,2,-2,X12,X05,1
+651,2016,Butler,71,Texas Tech,61,10,-10,X09,X08,1
+652,2016,Connecticut,74,Colorado,67,7,-7,Y09,Y08,1
+653,2016,Duke,93,UNC Wilmington,85,8,-8,Z04,Z13,1
+654,2016,Gonzaga,68,Seton Hall,52,16,-16,X11,X06,1
+655,2016,Indiana,99,Chattanooga,74,25,-25,W05,W12,1
+656,2016,Iowa St,94,Iona,81,13,-13,X04,X13,1
+657,2016,Kansas,105,Austin Peay,79,26,-26,Y01,Y16,1
+658,2016,Kentucky,85,Stony Brook,57,28,-28,W04,W13,1
+659,2016,Miami FL,79,Buffalo,72,7,-7,Y03,Y14,1
+660,2016,North Carolina,83,FL Gulf Coast,67,16,-16,W01,W16b,1
+661,2016,Providence,70,USC,69,1,-1,W09,W08,1
+662,2016,Utah,80,Fresno St,69,11,-11,X03,X14,1
+663,2016,Virginia,81,Hampton,45,36,-36,X01,X16,1
+664,2016,Wichita St,65,Arizona,55,10,-10,Y11b,Y06,1
+665,2016,Yale,79,Baylor,75,4,-4,Z12,Z05,1
+666,2016,Hawaii,77,California,66,11,-11,Y13,Y04,1
+667,2016,Iowa,72,Temple,70,2,-2,Y07,Y10,1
+668,2016,Maryland,79,S Dakota St,74,5,-5,Y05,Y12,1
+669,2016,MTSU,90,Michigan St,81,9,-9,X15,X02,1
+670,2016,Northern Iowa,75,Texas,72,3,-3,Z11,Z06,1
+671,2016,Notre Dame,70,Michigan,63,7,-7,W06,W11a,1
+672,2016,Oklahoma,82,CS Bakersfield,68,14,-14,Z02,Z15,1
+673,2016,Oregon,91,Holy Cross,52,39,-39,Z01,Z16a,1
+674,2016,SF Austin,70,West Virginia,56,14,-14,W14,W03,1
+675,2016,St Joseph's PA,78,Cincinnati,76,2,-2,Z08,Z09,1
+676,2016,Syracuse,70,Dayton,51,19,-19,X10,X07,1
+677,2016,Texas A&M,92,WI Green Bay,65,27,-27,Z03,Z14,1
+678,2016,VA Commonwealth,75,Oregon St,67,8,-8,Z10,Z07,1
+679,2016,Villanova,86,UNC Asheville,56,30,-30,Y02,Y15,1
+680,2016,Wisconsin,47,Pittsburgh,43,4,-4,W07,W10,1
+681,2016,Xavier,71,Weber St,53,18,-18,W02,W15,1
+682,2016,Duke,71,Yale,64,7,-7,Z04,Z12,2
+683,2016,Gonzaga,82,Utah,59,23,-23,X11,X03,2
+684,2016,Indiana,73,Kentucky,67,6,-6,W05,W04,2
+685,2016,Iowa St,78,Ark Little Rock,61,17,-17,X04,X12,2
+686,2016,Kansas,73,Connecticut,61,12,-12,Y01,Y09,2
+687,2016,Miami FL,65,Wichita St,57,8,-8,Y03,Y11b,2
+688,2016,North Carolina,85,Providence,66,19,-19,W01,W09,2
+689,2016,Virginia,77,Butler,69,8,-8,X01,X09,2
+690,2016,Maryland,73,Hawaii,60,13,-13,Y05,Y13,2
+691,2016,Notre Dame,76,SF Austin,75,1,-1,W06,W14,2
+692,2016,Oklahoma,85,VA Commonwealth,81,4,-4,Z02,Z10,2
+693,2016,Oregon,69,St Joseph's PA,64,5,-5,Z01,Z08,2
+694,2016,Syracuse,75,MTSU,50,25,-25,X10,X15,2
+695,2016,Texas A&M,92,Northern Iowa,88,4,-4,Z03,Z11,2
+696,2016,Villanova,87,Iowa,68,19,-19,Y02,Y07,2
+697,2016,Wisconsin,66,Xavier,63,3,-3,W07,W02,2
+698,2016,Kansas,79,Maryland,63,16,-16,Y01,Y05,3
+699,2016,Oklahoma,77,Texas A&M,63,14,-14,Z02,Z03,3
+700,2016,Oregon,82,Duke,68,14,-14,Z01,Z04,3
+701,2016,Villanova,92,Miami FL,69,23,-23,Y02,Y03,3
+702,2016,North Carolina,101,Indiana,86,15,-15,W01,W05,3
+703,2016,Notre Dame,61,Wisconsin,56,5,-5,W06,W07,3
+704,2016,Syracuse,63,Gonzaga,60,3,-3,X10,X11,3
+705,2016,Virginia,84,Iowa St,71,13,-13,X01,X04,3
+706,2016,Oklahoma,80,Oregon,68,12,-12,Z02,Z01,4
+707,2016,Villanova,64,Kansas,59,5,-5,Y02,Y01,4
+708,2016,North Carolina,88,Notre Dame,74,14,-14,W01,W06,4
+709,2016,Syracuse,68,Virginia,62,6,-6,X10,X01,4
+710,2016,North Carolina,83,Syracuse,66,17,-17,W01,X10,5
+711,2016,Villanova,95,Oklahoma,51,44,-44,Y02,Z02,5
+712,2016,Villanova,77,North Carolina,74,3,-3,Y02,W01,6

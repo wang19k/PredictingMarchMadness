@@ -1,64 +1,64 @@
 ,Season,Wteam,Wscore,Lteam,Lscore,Wscorediff,Lscorediff,WSeed,LSeed,Round
-516,2014,Connecticut,89,St Joseph's PA,81,8,-8,W07,W10,R1
-517,2014,Dayton,60,Ohio St,59,1,-1,X11,X06,R1
-518,2014,Florida,67,Albany NY,55,12,-12,X01,X16a,R1
-519,2014,Harvard,61,Cincinnati,57,4,-4,W12,W05,R1
-520,2014,Louisville,71,Manhattan,64,7,-7,Y04,Y13,R1
-521,2014,Michigan,57,Wofford,40,17,-17,Y02,Y15,R1
-522,2014,Michigan St,93,Delaware,78,15,-15,W04,W13,R1
-523,2014,N Dakota St,80,Oklahoma,75,5,-5,Z12,Z05,R1
-524,2014,Oregon,87,BYU,68,19,-19,Z07,Z10,R1
-525,2014,Pittsburgh,77,Colorado,48,29,-29,X09,X08,R1
-526,2014,San Diego St,73,New Mexico St,69,4,-4,Z04,Z13,R1
-527,2014,St Louis,83,NC State,80,3,-3,Y05,Y12a,R1
-528,2014,Syracuse,77,W Michigan,53,24,-24,X03,X14,R1
-529,2014,Texas,87,Arizona St,85,2,-2,Y07,Y10,R1
-530,2014,Villanova,73,WI Milwaukee,53,20,-20,W02,W15,R1
-531,2014,Wisconsin,75,American Univ,35,40,-40,Z02,Z15,R1
-532,2014,Arizona,68,Weber St,59,9,-9,Z01,Z16,R1
-533,2014,Baylor,74,Nebraska,60,14,-14,Z06,Z11,R1
-534,2014,Creighton,76,ULL,66,10,-10,Z03,Z14,R1
-535,2014,Gonzaga,85,Oklahoma St,77,8,-8,Z08,Z09,R1
-536,2014,Iowa St,93,NC Central,75,18,-18,W03,W14,R1
-537,2014,Kansas,80,E Kentucky,69,11,-11,X02,X15,R1
-538,2014,Kentucky,56,Kansas St,49,7,-7,Y08,Y09,R1
-539,2014,Memphis,71,G Washington,66,5,-5,W08,W09,R1
-540,2014,Mercer,78,Duke,71,7,-7,Y14,Y03,R1
-541,2014,North Carolina,79,Providence,77,2,-2,W06,W11,R1
-542,2014,SF Austin,77,VA Commonwealth,75,2,-2,X12,X05,R1
-543,2014,Stanford,58,New Mexico,53,5,-5,X10,X07,R1
-544,2014,Tennessee,86,Massachusetts,67,19,-19,Y11b,Y06,R1
-545,2014,UCLA,76,Tulsa,59,17,-17,X04,X13,R1
-546,2014,Virginia,70,Coastal Car,59,11,-11,W01,W16,R1
-547,2014,Wichita St,64,Cal Poly SLO,37,27,-27,Y01,Y16a,R1
-548,2014,Connecticut,77,Villanova,65,12,-12,W07,W02,R2
-549,2014,Dayton,55,Syracuse,53,2,-2,X11,X03,R2
-550,2014,Florida,61,Pittsburgh,45,16,-16,X01,X09,R2
-551,2014,Louisville,66,St Louis,51,15,-15,Y04,Y05,R2
-552,2014,Michigan,79,Texas,65,14,-14,Y02,Y07,R2
-553,2014,Michigan St,80,Harvard,73,7,-7,W04,W12,R2
-554,2014,San Diego St,63,N Dakota St,44,19,-19,Z04,Z12,R2
-555,2014,Wisconsin,85,Oregon,77,8,-8,Z02,Z07,R2
-556,2014,Arizona,84,Gonzaga,61,23,-23,Z01,Z08,R2
-557,2014,Baylor,85,Creighton,55,30,-30,Z06,Z03,R2
-558,2014,Iowa St,85,North Carolina,83,2,-2,W03,W06,R2
-559,2014,Kentucky,78,Wichita St,76,2,-2,Y08,Y01,R2
-560,2014,Stanford,60,Kansas,57,3,-3,X10,X02,R2
-561,2014,Tennessee,83,Mercer,63,20,-20,Y11b,Y14,R2
-562,2014,UCLA,77,SF Austin,60,17,-17,X04,X12,R2
-563,2014,Virginia,78,Memphis,60,18,-18,W01,W08,R2
-564,2014,Arizona,70,San Diego St,64,6,-6,Z01,Z04,R3
-565,2014,Dayton,82,Stanford,72,10,-10,X11,X10,R3
-566,2014,Florida,79,UCLA,68,11,-11,X01,X04,R3
-567,2014,Wisconsin,69,Baylor,52,17,-17,Z02,Z06,R3
-568,2014,Connecticut,81,Iowa St,76,5,-5,W07,W03,R3
-569,2014,Kentucky,74,Louisville,69,5,-5,Y08,Y04,R3
-570,2014,Michigan,73,Tennessee,71,2,-2,Y02,Y11b,R3
-571,2014,Michigan St,61,Virginia,59,2,-2,W04,W01,R3
-572,2014,Florida,62,Dayton,52,10,-10,X01,X11,R4
-573,2014,Wisconsin,64,Arizona,63,1,-1,Z02,Z01,R4
-574,2014,Connecticut,60,Michigan St,54,6,-6,W07,W04,R4
-575,2014,Kentucky,75,Michigan,72,3,-3,Y08,Y02,R4
-576,2014,Connecticut,63,Florida,53,10,-10,W07,X01,R5
-577,2014,Kentucky,74,Wisconsin,73,1,-1,Y08,Z02,R5
-578,2014,Connecticut,60,Kentucky,54,6,-6,W07,Y08,R6
+516,2014,Connecticut,89,St Joseph's PA,81,8,-8,W07,W10,1
+517,2014,Dayton,60,Ohio St,59,1,-1,X11,X06,1
+518,2014,Florida,67,Albany NY,55,12,-12,X01,X16a,1
+519,2014,Harvard,61,Cincinnati,57,4,-4,W12,W05,1
+520,2014,Louisville,71,Manhattan,64,7,-7,Y04,Y13,1
+521,2014,Michigan,57,Wofford,40,17,-17,Y02,Y15,1
+522,2014,Michigan St,93,Delaware,78,15,-15,W04,W13,1
+523,2014,N Dakota St,80,Oklahoma,75,5,-5,Z12,Z05,1
+524,2014,Oregon,87,BYU,68,19,-19,Z07,Z10,1
+525,2014,Pittsburgh,77,Colorado,48,29,-29,X09,X08,1
+526,2014,San Diego St,73,New Mexico St,69,4,-4,Z04,Z13,1
+527,2014,St Louis,83,NC State,80,3,-3,Y05,Y12a,1
+528,2014,Syracuse,77,W Michigan,53,24,-24,X03,X14,1
+529,2014,Texas,87,Arizona St,85,2,-2,Y07,Y10,1
+530,2014,Villanova,73,WI Milwaukee,53,20,-20,W02,W15,1
+531,2014,Wisconsin,75,American Univ,35,40,-40,Z02,Z15,1
+532,2014,Arizona,68,Weber St,59,9,-9,Z01,Z16,1
+533,2014,Baylor,74,Nebraska,60,14,-14,Z06,Z11,1
+534,2014,Creighton,76,ULL,66,10,-10,Z03,Z14,1
+535,2014,Gonzaga,85,Oklahoma St,77,8,-8,Z08,Z09,1
+536,2014,Iowa St,93,NC Central,75,18,-18,W03,W14,1
+537,2014,Kansas,80,E Kentucky,69,11,-11,X02,X15,1
+538,2014,Kentucky,56,Kansas St,49,7,-7,Y08,Y09,1
+539,2014,Memphis,71,G Washington,66,5,-5,W08,W09,1
+540,2014,Mercer,78,Duke,71,7,-7,Y14,Y03,1
+541,2014,North Carolina,79,Providence,77,2,-2,W06,W11,1
+542,2014,SF Austin,77,VA Commonwealth,75,2,-2,X12,X05,1
+543,2014,Stanford,58,New Mexico,53,5,-5,X10,X07,1
+544,2014,Tennessee,86,Massachusetts,67,19,-19,Y11b,Y06,1
+545,2014,UCLA,76,Tulsa,59,17,-17,X04,X13,1
+546,2014,Virginia,70,Coastal Car,59,11,-11,W01,W16,1
+547,2014,Wichita St,64,Cal Poly SLO,37,27,-27,Y01,Y16a,1
+548,2014,Connecticut,77,Villanova,65,12,-12,W07,W02,2
+549,2014,Dayton,55,Syracuse,53,2,-2,X11,X03,2
+550,2014,Florida,61,Pittsburgh,45,16,-16,X01,X09,2
+551,2014,Louisville,66,St Louis,51,15,-15,Y04,Y05,2
+552,2014,Michigan,79,Texas,65,14,-14,Y02,Y07,2
+553,2014,Michigan St,80,Harvard,73,7,-7,W04,W12,2
+554,2014,San Diego St,63,N Dakota St,44,19,-19,Z04,Z12,2
+555,2014,Wisconsin,85,Oregon,77,8,-8,Z02,Z07,2
+556,2014,Arizona,84,Gonzaga,61,23,-23,Z01,Z08,2
+557,2014,Baylor,85,Creighton,55,30,-30,Z06,Z03,2
+558,2014,Iowa St,85,North Carolina,83,2,-2,W03,W06,2
+559,2014,Kentucky,78,Wichita St,76,2,-2,Y08,Y01,2
+560,2014,Stanford,60,Kansas,57,3,-3,X10,X02,2
+561,2014,Tennessee,83,Mercer,63,20,-20,Y11b,Y14,2
+562,2014,UCLA,77,SF Austin,60,17,-17,X04,X12,2
+563,2014,Virginia,78,Memphis,60,18,-18,W01,W08,2
+564,2014,Arizona,70,San Diego St,64,6,-6,Z01,Z04,3
+565,2014,Dayton,82,Stanford,72,10,-10,X11,X10,3
+566,2014,Florida,79,UCLA,68,11,-11,X01,X04,3
+567,2014,Wisconsin,69,Baylor,52,17,-17,Z02,Z06,3
+568,2014,Connecticut,81,Iowa St,76,5,-5,W07,W03,3
+569,2014,Kentucky,74,Louisville,69,5,-5,Y08,Y04,3
+570,2014,Michigan,73,Tennessee,71,2,-2,Y02,Y11b,3
+571,2014,Michigan St,61,Virginia,59,2,-2,W04,W01,3
+572,2014,Florida,62,Dayton,52,10,-10,X01,X11,4
+573,2014,Wisconsin,64,Arizona,63,1,-1,Z02,Z01,4
+574,2014,Connecticut,60,Michigan St,54,6,-6,W07,W04,4
+575,2014,Kentucky,75,Michigan,72,3,-3,Y08,Y02,4
+576,2014,Connecticut,63,Florida,53,10,-10,W07,X01,5
+577,2014,Kentucky,74,Wisconsin,73,1,-1,Y08,Z02,5
+578,2014,Connecticut,60,Kentucky,54,6,-6,W07,Y08,6

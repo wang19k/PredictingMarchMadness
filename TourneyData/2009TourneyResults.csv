@@ -1,64 +1,64 @@
 ,Season,Wteam,Wscore,Lteam,Lscore,Wscorediff,Lscorediff,WSeed,LSeed,Round
-385,2009,Connecticut,103,Chattanooga,47,56,-56,Z01,Z16,R1
-386,2009,Duke,86,Binghamton,62,24,-24,W02,W15,R1
-387,2009,Gonzaga,77,Akron,64,13,-13,X04,X13,R1
-388,2009,LSU,75,Butler,71,4,-4,X08,X09,R1
-389,2009,Maryland,84,California,71,13,-13,Z10,Z07,R1
-390,2009,Memphis,81,CS Northridge,70,11,-11,Z02,Z15,R1
-391,2009,Michigan,62,Clemson,59,3,-3,X10,X07,R1
-392,2009,North Carolina,101,Radford,58,43,-43,X01,X16,R1
-393,2009,Oklahoma,82,Morgan St,54,28,-28,X02,X15,R1
-394,2009,Purdue,61,Northern Iowa,56,5,-5,Z05,Z12,R1
-395,2009,Texas,76,Minnesota,62,14,-14,W07,W10,R1
-396,2009,Texas A&M,79,BYU,66,13,-13,Z09,Z08,R1
-397,2009,UCLA,65,VA Commonwealth,64,1,-1,W06,W11,R1
-398,2009,Villanova,80,American Univ,67,13,-13,W03,W14,R1
-399,2009,WKU,76,Illinois,72,4,-4,X12,X05,R1
-400,2009,Washington,71,Mississippi St,58,13,-13,Z04,Z13,R1
-401,2009,Arizona,84,Utah,71,13,-13,Y12,Y05,R1
-402,2009,Arizona St,66,Temple,57,9,-9,X06,X11,R1
-403,2009,Cleveland St,84,Wake Forest,69,15,-15,Y13,Y04,R1
-404,2009,Dayton,68,West Virginia,60,8,-8,Y11,Y06,R1
-405,2009,Kansas,84,N Dakota St,74,10,-10,Y03,Y14,R1
-406,2009,Louisville,74,Morehead St,54,20,-20,Y01,Y16b,R1
-407,2009,Marquette,58,Utah St,57,1,-1,Z06,Z11,R1
-408,2009,Michigan St,77,Robert Morris,62,15,-15,Y02,Y15,R1
-409,2009,Missouri,78,Cornell,59,19,-19,Z03,Z14,R1
-410,2009,Oklahoma St,77,Tennessee,75,2,-2,W08,W09,R1
-411,2009,Pittsburgh,72,ETSU,62,10,-10,W01,W16,R1
-412,2009,Siena,74,Ohio St,72,2,-2,Y09,Y08,R1
-413,2009,Syracuse,59,SF Austin,44,15,-15,X03,X14,R1
-414,2009,USC,72,Boston College,55,17,-17,Y10,Y07,R1
-415,2009,Wisconsin,61,Florida St,59,2,-2,W12,W05,R1
-416,2009,Xavier,77,Portland St,59,18,-18,W04,W13,R1
-417,2009,Connecticut,92,Texas A&M,66,26,-26,Z01,Z09,R2
-418,2009,Duke,74,Texas,69,5,-5,W02,W07,R2
-419,2009,Gonzaga,83,WKU,81,2,-2,X04,X12,R2
-420,2009,Memphis,89,Maryland,70,19,-19,Z02,Z10,R2
-421,2009,North Carolina,84,LSU,70,14,-14,X01,X08,R2
-422,2009,Oklahoma,73,Michigan,63,10,-10,X02,X10,R2
-423,2009,Purdue,76,Washington,74,2,-2,Z05,Z04,R2
-424,2009,Villanova,89,UCLA,69,20,-20,W03,W06,R2
-425,2009,Arizona,71,Cleveland St,57,14,-14,Y12,Y13,R2
-426,2009,Kansas,60,Dayton,43,17,-17,Y03,Y11,R2
-427,2009,Louisville,79,Siena,72,7,-7,Y01,Y09,R2
-428,2009,Michigan St,74,USC,69,5,-5,Y02,Y10,R2
-429,2009,Missouri,83,Marquette,79,4,-4,Z03,Z06,R2
-430,2009,Pittsburgh,84,Oklahoma St,76,8,-8,W01,W08,R2
-431,2009,Syracuse,78,Arizona St,67,11,-11,X03,X06,R2
-432,2009,Xavier,60,Wisconsin,49,11,-11,W04,W12,R2
-433,2009,Connecticut,72,Purdue,60,12,-12,Z01,Z05,R3
-434,2009,Missouri,102,Memphis,91,11,-11,Z03,Z02,R3
-435,2009,Pittsburgh,60,Xavier,55,5,-5,W01,W04,R3
-436,2009,Villanova,77,Duke,54,23,-23,W03,W02,R3
-437,2009,Louisville,103,Arizona,64,39,-39,Y01,Y12,R3
-438,2009,Michigan St,67,Kansas,62,5,-5,Y02,Y03,R3
-439,2009,North Carolina,98,Gonzaga,77,21,-21,X01,X04,R3
-440,2009,Oklahoma,84,Syracuse,71,13,-13,X02,X03,R3
-441,2009,Connecticut,82,Missouri,75,7,-7,Z01,Z03,R4
-442,2009,Villanova,78,Pittsburgh,76,2,-2,W03,W01,R4
-443,2009,Michigan St,64,Louisville,52,12,-12,Y02,Y01,R4
-444,2009,North Carolina,72,Oklahoma,60,12,-12,X01,X02,R4
-445,2009,Michigan St,82,Connecticut,73,9,-9,Y02,Z01,R5
-446,2009,North Carolina,83,Villanova,69,14,-14,X01,W03,R5
-447,2009,North Carolina,89,Michigan St,72,17,-17,X01,Y02,R6
+385,2009,Connecticut,103,Chattanooga,47,56,-56,Z01,Z16,1
+386,2009,Duke,86,Binghamton,62,24,-24,W02,W15,1
+387,2009,Gonzaga,77,Akron,64,13,-13,X04,X13,1
+388,2009,LSU,75,Butler,71,4,-4,X08,X09,1
+389,2009,Maryland,84,California,71,13,-13,Z10,Z07,1
+390,2009,Memphis,81,CS Northridge,70,11,-11,Z02,Z15,1
+391,2009,Michigan,62,Clemson,59,3,-3,X10,X07,1
+392,2009,North Carolina,101,Radford,58,43,-43,X01,X16,1
+393,2009,Oklahoma,82,Morgan St,54,28,-28,X02,X15,1
+394,2009,Purdue,61,Northern Iowa,56,5,-5,Z05,Z12,1
+395,2009,Texas,76,Minnesota,62,14,-14,W07,W10,1
+396,2009,Texas A&M,79,BYU,66,13,-13,Z09,Z08,1
+397,2009,UCLA,65,VA Commonwealth,64,1,-1,W06,W11,1
+398,2009,Villanova,80,American Univ,67,13,-13,W03,W14,1
+399,2009,WKU,76,Illinois,72,4,-4,X12,X05,1
+400,2009,Washington,71,Mississippi St,58,13,-13,Z04,Z13,1
+401,2009,Arizona,84,Utah,71,13,-13,Y12,Y05,1
+402,2009,Arizona St,66,Temple,57,9,-9,X06,X11,1
+403,2009,Cleveland St,84,Wake Forest,69,15,-15,Y13,Y04,1
+404,2009,Dayton,68,West Virginia,60,8,-8,Y11,Y06,1
+405,2009,Kansas,84,N Dakota St,74,10,-10,Y03,Y14,1
+406,2009,Louisville,74,Morehead St,54,20,-20,Y01,Y16b,1
+407,2009,Marquette,58,Utah St,57,1,-1,Z06,Z11,1
+408,2009,Michigan St,77,Robert Morris,62,15,-15,Y02,Y15,1
+409,2009,Missouri,78,Cornell,59,19,-19,Z03,Z14,1
+410,2009,Oklahoma St,77,Tennessee,75,2,-2,W08,W09,1
+411,2009,Pittsburgh,72,ETSU,62,10,-10,W01,W16,1
+412,2009,Siena,74,Ohio St,72,2,-2,Y09,Y08,1
+413,2009,Syracuse,59,SF Austin,44,15,-15,X03,X14,1
+414,2009,USC,72,Boston College,55,17,-17,Y10,Y07,1
+415,2009,Wisconsin,61,Florida St,59,2,-2,W12,W05,1
+416,2009,Xavier,77,Portland St,59,18,-18,W04,W13,1
+417,2009,Connecticut,92,Texas A&M,66,26,-26,Z01,Z09,2
+418,2009,Duke,74,Texas,69,5,-5,W02,W07,2
+419,2009,Gonzaga,83,WKU,81,2,-2,X04,X12,2
+420,2009,Memphis,89,Maryland,70,19,-19,Z02,Z10,2
+421,2009,North Carolina,84,LSU,70,14,-14,X01,X08,2
+422,2009,Oklahoma,73,Michigan,63,10,-10,X02,X10,2
+423,2009,Purdue,76,Washington,74,2,-2,Z05,Z04,2
+424,2009,Villanova,89,UCLA,69,20,-20,W03,W06,2
+425,2009,Arizona,71,Cleveland St,57,14,-14,Y12,Y13,2
+426,2009,Kansas,60,Dayton,43,17,-17,Y03,Y11,2
+427,2009,Louisville,79,Siena,72,7,-7,Y01,Y09,2
+428,2009,Michigan St,74,USC,69,5,-5,Y02,Y10,2
+429,2009,Missouri,83,Marquette,79,4,-4,Z03,Z06,2
+430,2009,Pittsburgh,84,Oklahoma St,76,8,-8,W01,W08,2
+431,2009,Syracuse,78,Arizona St,67,11,-11,X03,X06,2
+432,2009,Xavier,60,Wisconsin,49,11,-11,W04,W12,2
+433,2009,Connecticut,72,Purdue,60,12,-12,Z01,Z05,3
+434,2009,Missouri,102,Memphis,91,11,-11,Z03,Z02,3
+435,2009,Pittsburgh,60,Xavier,55,5,-5,W01,W04,3
+436,2009,Villanova,77,Duke,54,23,-23,W03,W02,3
+437,2009,Louisville,103,Arizona,64,39,-39,Y01,Y12,3
+438,2009,Michigan St,67,Kansas,62,5,-5,Y02,Y03,3
+439,2009,North Carolina,98,Gonzaga,77,21,-21,X01,X04,3
+440,2009,Oklahoma,84,Syracuse,71,13,-13,X02,X03,3
+441,2009,Connecticut,82,Missouri,75,7,-7,Z01,Z03,4
+442,2009,Villanova,78,Pittsburgh,76,2,-2,W03,W01,4
+443,2009,Michigan St,64,Louisville,52,12,-12,Y02,Y01,4
+444,2009,North Carolina,72,Oklahoma,60,12,-12,X01,X02,4
+445,2009,Michigan St,82,Connecticut,73,9,-9,Y02,Z01,5
+446,2009,North Carolina,83,Villanova,69,14,-14,X01,W03,5
+447,2009,North Carolina,89,Michigan St,72,17,-17,X01,Y02,6

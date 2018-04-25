@@ -7,8 +7,8 @@ TOURNEY_COLS = ["Season", "Daynum", "Wteam", "Wscore", "Lteam", "Lscore", "Wloc"
            "Wfga", "Wfgm3", "Wfga3", "Wftm", "Wfta", "Wor", "Wdr", "Wast", "Wto", "Wstl",
            "Wblk", "Wpf", "Lfgm", "Lfga", "Lfgm3", "Lfga3", "Lftm", "Lfta", "Lor", "Ldr",
            "Last", "Lto", "Lstl", "Lblk", "Lpf"]
-ROUNDS = {136: 'R1', 137: 'R1', 138: 'R2', 139: 'R2', 143: 'R3', 144: 'R3', 145: 'R4',
-          146: 'R4', 152: 'R5', 154: 'R6'}
+ROUNDS = {136: 1, 137: 1, 138: 2, 139: 2, 143: 3, 144: 3, 145: 4,
+          146: 4, 152: 5, 154: 6}
 
 
 def main():
