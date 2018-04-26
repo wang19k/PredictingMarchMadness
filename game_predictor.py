@@ -17,8 +17,9 @@ LABEL = "HigherSeedWon"
 
 def main():
     data = merge_input_frames("AllRegularSeason.csv", "AllTourneyResults.csv")
+    # manual = pd.read_csv(open(reg_filename), usecols=[FILL ME IN], skipinitialspace=True, skiprows=0, engine="python")
     generate_model(data)
-    
+    # generate_model(manual)
 
 def merge_input_frames(reg_filename, tour_filename):
     reg = pd.read_csv(open(reg_filename), usecols=REG_COLS,
@@ -31,19 +32,28 @@ def merge_input_frames(reg_filename, tour_filename):
     # Need both positive and negative labels tp train so whatever you choose
     # This is not a good metric beecause sometimes during Final Fours/Championships teams have the same seed
     tourney[LABEL] = np.where((tourney['WSeed'] <= tourney['LSeed']), 1, 0)
-    winners = reg.rename(columns={'Team': 'Wteam', 'Score': 'WscoreAvg', 'Scorediff': 'WscorediffAvg',
-                            'Fgm': 'Wfgm', 'Fga': 'Wfga', 'Fgm3': 'Wfgm3',
-                            'Fga3': 'Wfga3', 'Ftm': 'Wftm', 'Fta': 'Wfta', 'Or': 'Wor',
-                            'Dr': 'Wdr', 'Ast': 'Wast', 'To': 'Wto', 'Stl': 'Wstl',
-                            'Blk': 'Wblk', 'Pf': 'Wpf', 'Win': 'Wwinprop', 'Numot': 'Wnumot'})
-    losers = reg.rename(columns={'Team': 'Lteam', 'Score': 'LscoreAvg', 'Scorediff': 'LscorediffAvg',
-                            'Fgm': 'Lfgm', 'Fga': 'Lfga', 'Fgm3': 'Lfgm3',
-                            'Fga3': 'Lfga3', 'Ftm': 'Lftm', 'Fta': 'Lfta', 'Or': 'Lor',
-                            'Dr': 'Ldr', 'Ast': 'Last', 'To': 'Lto', 'Stl': 'Lstl',
-                            'Blk': 'Lblk', 'Pf': 'Lpf', 'Win': 'Lwinprop', 'Numot': 'Lnumot'})
-    
+    winners = reg.rename(columns={'Team': 'Wteam', 'Score': 'WScore', 'Scorediff': 'WScorediff',
+                            'Fgm': 'WFgm', 'Fga': 'WFga', 'Fgm3': 'WFgm3',
+                            'Fga3': 'WFga3', 'Ftm': 'WFtm', 'Fta': 'WFta', 'Or': 'WOr',
+                            'Dr': 'WDr', 'Ast': 'WAst', 'To': 'WTo', 'Stl': 'WStl',
+                            'Blk': 'WBlk', 'Pf': 'WPf', 'Win': 'WWin', 'Numot': 'WNumot'})
+    losers = reg.rename(columns={'Team': 'Lteam', 'Score': 'LScore', 'Scorediff': 'LScorediff',
+                            'Fgm': 'LFgm', 'Fga': 'LFga', 'Fgm3': 'LFgm3',
+                            'Fga3': 'LFga3', 'Ftm': 'LFtm', 'Fta': 'LFta', 'Or': 'LOr',
+                            'Dr': 'LDr', 'Ast': 'LAst', 'To': 'LTo', 'Stl': 'LStl',
+                            'Blk': 'LBlk', 'Pf': 'LPf', 'Win': 'LWin', 'Numot': 'LNumot'})
     tourney = pd.DataFrame.merge(tourney, winners, on=['Season', 'Wteam'])
     tourney = pd.DataFrame.merge(tourney, losers, on=['Season', 'Lteam'])
+    tourney.rename(columns={'Wscore': 'T1Score', 'Lscore': 'T2Score', 'Wscorediff': 'T1-T2Score', 'Wteam': 'Team1', 'Lteam': 'Team2'}, inplace=True)
+    tourney["WSeed"] = tourney["WSeed"].apply(lambda x: int(x[1:3]))
+    tourney["LSeed"] = tourney["LSeed"].apply(lambda x: int(x[1:3]))
+    tourney["WSeed-LSeed"] = tourney["WSeed"] - tourney["LSeed"]
+    tourney.drop(['Lscorediff', "WSeed", "LSeed"], axis = 1, inplace=True)
+    for feature in REG_COLS[2:]:
+        tourney[feature + "AvgDiff"] = tourney['W' + feature] - tourney['L' + feature]
+        tourney.drop(['W' + feature], axis = 1, inplace=True)
+        tourney.drop(['L' + feature], axis = 1, inplace=True)
+    #tourney['Fgm'] = tourney['Wfgm'] - tourney['Lfgm']
     tourney.to_csv("MergedFinalData.csv")
     return tourney
 
