@@ -102,6 +102,7 @@ def generate_model(data):
     X = data.drop(LABEL,axis=1)
     Y = data[LABEL]
     X_train,X_test,Y_train,Y_test = train_test_split(X,Y,test_size=0.25,random_state=0)
+    # Scales the data so that data with on a larger scale isn't weighted more heavily
     scaler = StandardScaler()
     X_train = scaler.fit_transform(X_train)
     X_test = scaler.transform(X_test)
@@ -115,6 +116,7 @@ def generate_model(data):
     predictions=LR.predict(X_test)
     #print(LR.score(X_train,Y_train))
     print(LR.score(X_test,Y_test))
+    # When uncommented, this will let us see the list of predictions
     # print('True values:', Y_test.tolist())
     # print('Predictions:', predictions.tolist())
     predict_proba = LR.predict_proba(X_test)
