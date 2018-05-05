@@ -1,6 +1,8 @@
 import sys
 import pandas as pd
 import csv
+import itertools
+from  itertools import combinations
 
 COLUMNS = ["Season", "Seed", "Team"]
 TOURNEY_COLS = ["Season", "Daynum", "Wteam", "Wscore", "Lteam", "Lscore", "Wloc", "Numot", "Wfgm",
@@ -15,8 +17,10 @@ def main():
     #filter_inputs("TourneySeeds.csv", "TourneySeedsClean.csv")
     team_names = create_dict_from_csv("teams.csv")
     input_list = get_input_frames("TourneyDetailedResults.csv")
+    team_list = get_teams("TourneySeedsClean.csv")
     seed_list = get_seeds("TourneySeedsClean.csv")
     clean_inputs(input_list, seed_list, team_names)
+    create_combinations(team_list, seed_list, team_names, 2011, 2013)
 
 
 def filter_inputs(filename, outfile):
@@ -63,6 +67,15 @@ def get_input_frames(filename):
         input_list.append(inputs[inputs.Season == year])
     return input_list
 
+def get_teams(filename):
+    inputs = pd.read_csv(open(filename), names=["Season", "Seed", "Team"],
+                         skipinitialspace=True,
+                         skiprows=1, engine="python")
+    input_list = []
+    for year in range(2003, 2018):
+        input_list.append(inputs[inputs.Season == year])
+    return input_list
+
 def clean_inputs(input_list, seed_list, names):
     #winners = inputs.drop(["Lteam", "Lscore", "Lscorediff"], axis=1)
     #losers = inputs.drop(["Wteam", "Wscore", "Wscorediff"], axis=1)
@@ -82,6 +95,23 @@ def clean_inputs(input_list, seed_list, names):
         if not data.empty:
             data.to_csv("TourneyData/" + str(i + 2003) + "TourneyResults.csv")
         all_years.to_csv("AllTourneyResults.csv")
+    
+def create_combinations(team_list, seed_list, names, begin, end):
+    """Generates all combinations of teams from begin to end per year"""
+    begin = begin - 2003
+    end = end - 2003
+    for i in range(begin, end + 1):
+        data = team_list[i]
+        combos = list(combinations(data['Team'], 2))
+        team_frame = pd.DataFrame(combos, columns=['T1', 'T2'])
+        team_frame["Season"] = (i + 2003)
+        team_frame["T1Seed"] = team_frame["T1"].apply(lambda x: int((seed_list[i][x])[1:3]))
+        team_frame["T2Seed"] = team_frame["T2"].apply(lambda x: int((seed_list[i][x])[1:3]))
+        if i == begin:
+            all_years = team_frame
+        else:
+            all_years = pd.concat([all_years, team_frame], axis = 0)
+        all_years.to_csv("AllCombinations.csv")
     
 
 if __name__=="__main__":

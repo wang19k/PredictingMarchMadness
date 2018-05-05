@@ -6,17 +6,10 @@ from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
 from sklearn.utils import shuffle
 from sklearn import metrics
-from sklearn.preprocessing import StandardScaler
 
-
-# sklearn.preprocessing.OneHotEncoder() used for categorical features to one-hots
-# commands for converting to Category: pd.Categorical(__somecolumn___)
-# sklearn.preprocessing.LabelEncoder() normalizes labels by hashing
-
-#logreg = LogisticRegression()
 TOURNEY_COLS = ['Season', 'Wteam', 'Wscore', 'Lteam', 'Lscore', 'Wscorediff', 'Lscorediff', 'WSeed', 'LSeed', 'Round']
 REG_COLS = ['Team', 'Season', 'Score', 'Numot', 'Fgm', 'Fga', 'Fgm3', 'Fga3', 'Ftm', 'Fta', 'Or', 'Dr', 'Ast', 'To', 'Stl', 'Blk', 'Pf', 'Scorediff', 'Win']
-# Name of whatever label we choose
+COM_COLS = ['T1', 'T2', 'Season', 'T1Seed', 'T2Seed']
 LABEL = "T1 WL"
 
 def main():
@@ -26,10 +19,24 @@ def main():
     tourney_df = pd.read_csv(open("AllTourneyResults.csv"), usecols=TOURNEY_COLS,
                          skipinitialspace=True,
                          skiprows=0, engine="python")
+    com_df = pd.read_csv(open("AllCombinations.csv"), usecols=COM_COLS,
+                         skipinitialspace=True,
+                         skiprows=0, engine="python")
     data = merge_input_frames(reg_df, tourney_df)
+    test_inputs = merge_combinatorial_data(reg_df, com_df)
     # manual = pd.read_csv(open(reg_filename), usecols=[FILL ME IN], skipinitialspace=True, skiprows=0, engine="python")
-    generate_model(data)
+    model = generate_model(data)
+    team_names = create_dict_from_csv("teams.csv")
+    generate_predictions(model, test_inputs, team_names)
     # generate_model(manual)
+
+def create_dict_from_csv(filename):
+    """Creates dictionary mapping team ID to team names."""
+    with open(filename, mode='r') as infile:
+        reader = csv.reader(infile)
+        next(reader, None) # Get's rid of the headers
+        team_names = {int(rows[0]):rows[1] for rows in reader}
+        return team_names
 
 def merge_input_frames(reg_df, tourney_df):
     reg = reg_df.copy()
@@ -98,14 +105,40 @@ def merge_input_frames(reg_df, tourney_df):
     tourney.to_csv("MergedFinalData.csv")
     return tourney
 
+def merge_combinatorial_data(reg_df, com_df):
+    reg = reg_df.copy()
+    com = com_df.copy()
+    winners = reg.rename(columns={'Team': 'T1', 'Score': '1Score', 'Scorediff': '1Scorediff',
+                            'Fgm': '1Fgm', 'Fga': '1Fga', 'Fgm3': '1Fgm3',
+                            'Fga3': '1Fga3', 'Ftm': '1Ftm', 'Fta': '1Fta', 'Or': '1Or',
+                            'Dr': '1Dr', 'Ast': '1Ast', 'To': '1To', 'Stl': '1Stl',
+                            'Blk': '1Blk', 'Pf': '1Pf', 'Win': '1Win', 'Numot': '1Numot'})
+    losers = reg.rename(columns={'Team': 'T2', 'Score': '2Score', 'Scorediff': '2Scorediff',
+                            'Fgm': '2Fgm', 'Fga': '2Fga', 'Fgm3': '2Fgm3',
+                            'Fga3': '2Fga3', 'Ftm': '2Ftm', 'Fta': '2Fta', 'Or': '2Or',
+                            'Dr': '2Dr', 'Ast': '2Ast', 'To': '2To', 'Stl': '2Stl',
+                            'Blk': '2Blk', 'Pf': '2Pf', 'Win': '2Win', 'Numot': '2Numot'})
+    com = pd.DataFrame.merge(com, winners, on=['Season', 'T1'])
+    com = pd.DataFrame.merge(com, losers, on=['Season', 'T2'])
+    com["1Seed-2Seed"] = com["T1Seed"] - com["T2Seed"]
+    com.drop(["T1Seed", "T2Seed"], axis=1, inplace=True)
+    for feature in REG_COLS[2:]:
+        # Adding the difference to the dataframe
+        com[feature + "AvgDiff"] = com['1' + feature] - com['2' + feature]
+        # Then dropping the feature after the difference is calculated
+        com.drop(['1' + feature], axis = 1, inplace=True)
+        com.drop(['2' + feature], axis = 1, inplace=True)
+    com.to_csv("Help.csv")
+    return com
+    
+    
+    
+    
+
 def generate_model(data):
     X = data.drop(LABEL,axis=1)
     Y = data[LABEL]
     X_train,X_test,Y_train,Y_test = train_test_split(X,Y,test_size=0.25,random_state=0)
-    # Scales the data so that data with on a larger scale isn't weighted more heavily
-    scaler = StandardScaler()
-    X_train = scaler.fit_transform(X_train)
-    X_test = scaler.transform(X_test)
     print(X_train.shape)
     print(X_test.shape)
     print(Y_train.shape)
@@ -124,6 +157,14 @@ def generate_model(data):
     print('Accuracy: %.2f' % (accuracy_score))
     classification_report = metrics.classification_report(Y_test, predictions)
     print('Report:', classification_report)
+    return LR
+
+def generate_predictions(model, inputs, names):
+    predictions=model.predict(inputs)
+    inputs["T1"] = inputs["T1"].apply(lambda x: names[x])
+    inputs["T2"] = inputs["T2"].apply(lambda x: names[x])
+    inputs[LABEL] = predictions
+    inputs.to_csv("FinalResults.csv")
     
 if __name__ == "__main__":
     main()
