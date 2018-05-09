@@ -3,27 +3,39 @@ import numpy as np
 import pandas as pd
 import csv
 
+
+def main():
+    team_names = create_dict_from_csv("teams.csv")
+    inputs = get_input_frames("RegularSeasonDetailedResults.csv", team_names)
+    clean_inputs(inputs)
+
+def create_dict_from_csv(filename):
+    """Creates dictionary mapping team ID to team names.
+    Args:
+        filename: The filename that contains team IDs/names ("teams.csv").
+    Returns:
+        A dictionary of team names keyed by team ID.
+    """
+    with open(filename, mode='r') as infile:
+        reader = csv.reader(infile)
+        next(reader, None) # Gets rid of the headers
+        team_names = {int(rows[0]):rows[1] for rows in reader}
+        return team_names
+
+
 COLUMNS = ["Season", "Daynum", "Wteam", "Wscore", "Lteam", "Lscore", "Wloc", "Numot", "Wfgm",
            "Wfga", "Wfgm3", "Wfga3", "Wftm", "Wfta", "Wor", "Wdr", "Wast", "Wto", "Wstl",
            "Wblk", "Wpf", "Lfgm", "Lfga", "Lfgm3", "Lfga3", "Lftm", "Lfta", "Lor", "Ldr",
            "Last", "Lto", "Lstl", "Lblk", "Lpf"]
 
-def main():
-    team_names = create_dict_from_csv("teams.csv")
-    #print(team_names)
-    inputs = get_input_frames("RegularSeasonDetailedResults.csv", team_names)
-    clean_inputs(inputs)
 
-def create_dict_from_csv(filename):
-    """Creates dictionary mapping team ID to team names."""
-    with open(filename, mode='r') as infile:
-        reader = csv.reader(infile)
-        next(reader, None) # Get's rid of the headers
-        team_names = {int(rows[0]):rows[1] for rows in reader}
-        return team_names
-
-def get_input_frames(filename, names):
-    """Returns the file as a dataframe with modified columns."""
+def get_input_frames(filename):
+    """Returns the file as a dataframe with modified columns.
+    Args:
+        filename: Filename that contains regular season results ("RegularSeasonDetailedResults.csv").
+    Returns:
+        A dataframe created from the input file with added columns.
+    """
     inputs = pd.read_csv(open(filename), names=COLUMNS,
                          skipinitialspace=True,
                          skiprows=1, engine="python")
@@ -33,11 +45,9 @@ def get_input_frames(filename, names):
     inputs["Lscorediff"] = inputs["Lscore"].subtract(inputs["Wscore"])
     # The reverse for the Losing team
     inputs["Lloc"] = inputs["Wloc"].apply(lambda x: "N" if x=="N" else ("A" if x=="H" else "H"))
-    # Apply their names
-    #inputs["Wteam"] = inputs["Wteam"].apply(lambda x: names[x])
-    #inputs["Lteam"] = inputs["Lteam"].apply(lambda x: names[x])
-    # For now dropping these, maybe be useful in the future
+    # For we are dropping these columns. These could be useful in the future.
     return inputs.drop(["Daynum", "Wloc", "Lloc"], axis= 1)
+
 
 def clean_inputs(inputs):
     """Cleaning the inputs and printing to yearly csv files. Essentially, we are
@@ -75,7 +85,6 @@ def clean_inputs(inputs):
         # Group by team and average all the fields
         yearly2 = yearly1.groupby('Team').agg(['mean'])
         yearly2["Count"] = yearly1.groupby('Team')["Score"].count()
-        yearly2.to_csv("RegularSeason/" + str(year) + "RegularSeason.csv")
         if year == 2003:
             all_years = yearly2
         else:
